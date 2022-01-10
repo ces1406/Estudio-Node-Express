@@ -1,0 +1,22 @@
+{
+  "name": "proyectoa",
+  "version": "1.0.0",
+  "description": "proyecto de pruebas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./express-basico/server",
+    "start-basico": "nodemon ./servidor-basico/server",
+    "start-rutas": "nodemon ./express-rutas-anidadas/server",
+    "start-multer": "nodemon ./express-con-multer/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cesar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
